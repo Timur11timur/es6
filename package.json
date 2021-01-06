@@ -1,0 +1,11 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src -d output"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10"
+  }
+}
