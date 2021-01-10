@@ -2,8 +2,8 @@
   "name": "es6",
   "version": "1.0.0",
   "scripts": {
-    "build": "babel src -d output",
-    "dev": "babel src -d output"
+    "build": "babel src/js -d output",
+    "dev": "babel src/js -d output"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
