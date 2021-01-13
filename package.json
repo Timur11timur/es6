@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "build": "babel src/js -d output",
-    "dev": "babel src/js -d output"
+    "dev": "webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11"
+    "@babel/preset-env": "^7.12.11",
+    "rollup": "^2.36.1",
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1",
+    "buble": "^0.20.0",
+    "buble-loader": "^0.5.1"
   }
 }

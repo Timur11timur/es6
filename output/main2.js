@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=function(t){void 0===t&&(t=[]),this.tasks=t};t.prototype.dump=function(){console.log(this.tasks)},new t(["one","two","three"]).dump()})();
